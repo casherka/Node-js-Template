@@ -1,0 +1,100 @@
+    /*  Home page  */
+body {
+    background: #1f1f1f;
+    padding: 0;
+    margin: 0;
+}
+
+.background {
+    background-image: url("/static/background.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    padding: 0;
+    margin: 0;
+    height: 100vh;
+    filter: blur(9px);
+}
+    /*  Content  */
+.content {
+    position: absolute;
+    margin: 0;
+}
+
+.card {
+    background-color: #222222;
+}
+
+.body-col {
+    color: #eaeaea;
+}
+
+.text-muted {
+    color: #909090 !important;
+}
+
+.btn-primary {
+    background-color: #333538;
+    border-color: #333333;
+}
+
+.btn-primary:focus {
+    background-color: #333538;
+    border-color: #333333;
+    box-shadow: None;
+}
+
+.btn-primary:active{
+    background-color: #51617c;
+    border-color: #3e495e;
+    box-shadow: None;
+}
+
+.btn-primary:active:focus {
+    background-color: #71819c;
+    border-color: #5e697e;
+    box-shadow: None;
+}
+
+a {
+    color: #b3c0d5;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #5582c3;
+    border-color: #5178b9;
+    font-size:16.9px;
+    text-decoration: underline dotted;
+}
+
+.btn-primary:hover {
+    background-color: #455671;
+    border-color: #3e4249;
+}
+
+.form-check-input:checked {
+    background-color: #455671;
+    border-color: #3e4249;
+}
+
+.form-check-input:hover {
+    outline: 0;
+    box-shadow: 0 0 0 .15rem rgba(113, 126, 148, 0.25);
+}
+
+.form-check-input:focus {
+    border: 1px solid #3e4249;
+    outline: 0;
+    box-shadow: none;
+}
+
+.form-check-input:focus:hover {
+    border: 1px solid #3e4249;
+    outline: 0;
+    box-shadow: 0 0 0 .15rem rgba(113, 126, 148, 0.25);
+}
+
+.sign_up_psc {
+    margin-left: 18px;
+    font-weight: 400;
+}

@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en" data-bs-theme="dark">
+<head>
+    {% load static %}
+    {% load bootstrap5 %}
+    {% bootstrap_css %}
+    {% bootstrap_javascript %}
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="{% static 'css/home/auth_err.css' %}">
+    <link rel="icon" type="image/x-icon" href="{% static 'favicon.ico' %}"/>
+    <title>Auth err :/</title>
+</head>
+<body>
+    <div class="container d-flex align-items-center justify-content-center">
+            <img src="/static/favicon.ico" class="C_logo" alt="logo" width="97">
+        <figure class="text-center text">
+            <blockquote class="blockquote">
+            <h2>Authentication failed:</h2>
+            </blockquote>
+            <figcaption class="blockquote-footerC red_text">
+                User not found
+            </figcaption>
+            <p class="pre_txt">Please check the data and</p>
+            <a href="{% url 'sign_in' %}">Try again</a>
+            <text class="or">Or<text>
+            <a href="{% url 'sign_up' %}">Create One</a>
+        </figure>
+    </div>
+</body>
+</html>

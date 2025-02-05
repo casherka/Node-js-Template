@@ -1,0 +1,51 @@
+body {
+    background: #1f1f1f;
+    height: 99vh;
+    padding: 0;
+    margin: 0;
+}
+
+.text {
+    color: #eaeaea;
+}
+
+.blockquote-footerC {
+    margin-top: -1rem;
+    margin-bottom: 5px;
+    font-size: 19px;
+}
+
+.container{
+    height: 100%;
+}
+
+.red_text {
+    color: #9e4848;
+}
+
+a {
+    color: #b3c0d5;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #5582c3;
+    font-size:15px;
+    text-decoration: underline dotted;
+}
+
+.or {
+    font-size: 15.8px;
+    color: #c9b4d3;
+}
+
+.C_logo {
+    margin-top: -248px;
+    position: fixed;
+}
+
+.pre_txt {
+    font-size: 16.3px;
+    margin-bottom: 2.3px;
+    color: #cfd3dc;
+}
